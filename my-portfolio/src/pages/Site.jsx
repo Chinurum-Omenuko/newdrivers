@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './Site.css'
+import '.././assets/stylesheets/Site.css'
 
-import Navbar from '../../components/Navbar/Navbar.jsx';
+import Navbar from '../components/Navbar/Navbar.jsx';
 
 function Site() {
   return(
@@ -15,7 +15,7 @@ function Site() {
 
 function Home() {
   return(
-  <main class="bg-container flex justify-center">
+  <main class="bg-container flex justify-center border-2 border-yellow-100">
     <div class="content-wrapper w-full ">
       <div class="text-left headings">
         <h1>Chinurum Omenuko</h1>

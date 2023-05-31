@@ -1,4 +1,4 @@
-import './Navbar.css'
+import '.././assets/stylesheets/Navbar.css'
 import Burger from '../../assets/images/burger.svg'
 
 function Navbar() {

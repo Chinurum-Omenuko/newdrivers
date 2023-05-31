@@ -1,0 +1,11 @@
+.wrapper{
+    height: fit-content;
+}
+
+main{
+    height: 100vh;
+}
+
+@media  only screen and (max-width: 400px) {
+
+}
