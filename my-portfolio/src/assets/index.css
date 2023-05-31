@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  color: white;
+}
+
 #root {
   max-width: 1280px;
   min-height: 100vh;
@@ -9,7 +13,7 @@
 }
 
 body{
-  border: solid 1px green;
+  border: solid .5px green;
   padding-top: 50px;
 }
 
