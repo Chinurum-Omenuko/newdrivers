@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@media  only screen and (max-width: 400) {
+@media  only screen and (max-width: 400px) {
+  body {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.848);
+  }
+
   
+
+
 }
