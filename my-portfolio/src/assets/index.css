@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+a{
+  color: white;
+}
+
 @media  only screen and (max-width: 400px) {
   body {
     min-height: 100vh;
