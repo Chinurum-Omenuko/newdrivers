@@ -7,5 +7,8 @@ main{
 }
 
 @media  only screen and (max-width: 400px) {
+    .content-wrapper{
+        margin: 0 50px;
+    }
 
 }

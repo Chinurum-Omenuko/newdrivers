@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '.././assets/stylesheets/Site.css'
 
-import Navbar from '../components/Navbar/Navbar.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 function Site() {
   return(

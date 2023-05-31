@@ -1,5 +1,5 @@
 import '.././assets/stylesheets/Navbar.css'
-import Burger from '../../assets/images/burger.svg'
+import Burger from '.././assets/images/burger.svg'
 
 function Navbar() {
     return(
