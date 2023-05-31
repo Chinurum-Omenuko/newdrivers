@@ -1,5 +1,27 @@
 
 
 @media only screen and (max-width:400px){
-    
+    :root{
+        font-size: 1em;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    nav{
+        min-width: 100vw;
+        border: solid 2px white;
+        position: fixed;
+        z-index: 1000;
+        margin: 0;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .hamburger-icon{
+        width: 50px;
+    }
 }
