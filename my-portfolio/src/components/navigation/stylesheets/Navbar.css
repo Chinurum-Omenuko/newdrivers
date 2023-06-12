@@ -2,6 +2,11 @@ nav{
     background-color: black;
 }
 
+/* .show{
+    display: none;
+} */
+
+
 @media only screen and (max-width:400px){
     :root{
         font-size: .8em;
