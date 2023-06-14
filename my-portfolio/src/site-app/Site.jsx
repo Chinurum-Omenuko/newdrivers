@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import '.././assets/stylesheets/Site.css'
+import './site.css'
 import Navbar from '../components/navigation/Navbar.jsx';
 
 
 
 function Site() {
   return(
-    <div class="wrapper border-blue-500 border-2">
+    <div className="wrapper border-blue-500 border-2">
       <Navbar />
       <Home />
     </div>
@@ -16,9 +16,9 @@ function Site() {
 
 function Home() {
   return(
-  <main class="bg-container flex justify-center border-2 border-yellow-800">
+  <main class="bg-container flex justify-center border-2 border-green-800">
     <div class="content-wrapper w-full main-wrapper">
-      <div class="text-left headings">
+      <div class="text-center headings">
         <h1>Chinurum Omenuko</h1>
         <h2>Portfolio Website</h2>
         <p>Front End Developer</p>

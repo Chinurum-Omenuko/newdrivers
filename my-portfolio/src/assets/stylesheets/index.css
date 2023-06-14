@@ -15,7 +15,7 @@
 } */
 
 body{
-  border: solid .5px green;
+  border: solid .5px coral;
   /* padding-top: 50px; */
 }
 
@@ -27,7 +27,7 @@ a{
   body {
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.848);
-    background-image: url(../images/desktop.png);
+    /* background-image: url(../images/desktop.png); */
     background-size: contain;
     background-repeat: no-repeat;
   }

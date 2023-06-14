@@ -9,10 +9,10 @@ main{
 @media  only screen and (max-width: 400px) {
     .main-wrapper{
         margin: 0 10px;
-        border: solid 2px orange;
     }
+
     .main-wrapper > div {
-        border: solid 2px violet;
+        /* border: solid 2px violet; */
         width: auto
 
     }
@@ -22,8 +22,8 @@ main{
         top: 50px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
+        align-items: flex-center;
+        text-align: center;
     }
 
     .icons {

@@ -1,12 +1,3 @@
-nav{
-    background-color: black;
-}
-
-/* .show{
-    display: none;
-} */
-
-
 @media only screen and (max-width:400px){
     :root{
         font-size: .8em;
@@ -16,7 +7,6 @@ nav{
         color: white;
         text-decoration: none;
     }
-
     nav{
         min-width: 100vw;
         border: solid 2px white;
@@ -27,8 +17,13 @@ nav{
         padding: 0 5px;
     }
 
-    .regnav{
-        display: none;
+    .hamburger-icon{
+        width: 50px;
+    }
+
+    .logo{
+        padding: 10px;
+        cursor: pointer;
     }
 
    
