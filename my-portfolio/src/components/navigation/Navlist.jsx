@@ -1,5 +1,7 @@
+import './stylesheets/Navlist.css'
+
 function Navlist(){
-    <ul>
+    <ul className='list'>
         <a href="http://">About</a>
         <a href="http://">Projects</a>
         <a href="http://">Contact</a>
