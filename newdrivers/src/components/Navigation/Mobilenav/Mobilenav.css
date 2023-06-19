@@ -1,0 +1,19 @@
+.mnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    min-height: 70px;
+}
+.logo-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+    height: 30px;
+    padding-right: 5px;
+}

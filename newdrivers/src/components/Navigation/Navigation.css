@@ -1,0 +1,19 @@
+nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+
+
+@media only screen and (max-width: 400px){
+    nav{
+        min-width: 100%;
+    }
+
+    nav .main-nav{
+        display: none;
+    }
+
+
+}
