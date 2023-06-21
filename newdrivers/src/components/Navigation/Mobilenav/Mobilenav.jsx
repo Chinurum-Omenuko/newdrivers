@@ -6,7 +6,7 @@ function Mobilenav() {
     return ( 
     <div className="mnav">
         <div className="logo-container flex flex-row items-center">
-            <img src={traffic} alt="" className="border border-solid border-red-50"/>
+            {/* <img src={traffic} alt="" className="border border-solid border-red-50"/> */}
             <h3>New Drivers</h3>
         </div>
         <GiHamburgerMenu className='hamburger' size={30}/>

@@ -4,6 +4,15 @@
     color: black;
 }
 
+#title{
+    background-color: bisque;
+    border: solid 2px red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: space-around center;
+}
+
 .lower{
     color: red;
 }

@@ -25,3 +25,6 @@ html,body{
   -webkit-text-size-adjust: 100%;
 }
 
+p{
+  font-size: .7rem;
+}

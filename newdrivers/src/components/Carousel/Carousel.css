@@ -1,5 +1,7 @@
-.main-container div{
-    max-width: 100%;
-    height: 100vh;
-    
+.main-container{
+    z-index: 100;
+}
+
+.carousel-inner{
+    padding: 0;
 }
