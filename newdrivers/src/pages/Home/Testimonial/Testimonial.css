@@ -1,0 +1,16 @@
+.testimonials{
+    background-color: black;
+    color: white;
+    
+}
+
+.testimonial-heading{
+    color: black;
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+
+.Testimonial{
+    padding: 40px 0px;
+}

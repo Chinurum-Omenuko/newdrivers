@@ -1,0 +1,25 @@
+.banner{
+    background-image: url('../../../assets/images/banner-pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    max-width: 100vw;
+    min-height: 60vh;
+    border-radius: 10px;
+    margin: 50px 20px;
+
+}
+
+.banner-wrapper{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: end;
+}
+
+
+
+.items{
+    padding-bottom: 30px;
+}

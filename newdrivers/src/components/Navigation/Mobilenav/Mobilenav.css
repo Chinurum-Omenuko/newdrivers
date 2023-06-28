@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    min-height: 60px;
+    min-height: 50px;
 }
 .logo-container
 {
@@ -15,5 +15,10 @@
 
 img{
     height: 10px;
-    padding-right: 5px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.hamburger{
+    color: rgb(54, 59, 62);
 }

@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html,body{
-  margin: 0;
+  margin: -1px;
   padding: 0;
   box-sizing: border-box;
 }
 
+p,h1,h2,h3{
+  font-family: 'Sen', sans-serif;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Sen', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
+
+  --red: #db5461;
+  --white: #F4F4ED;
+  --grey: #6B717E;
+  --platinum: #D3D4D9;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -25,6 +36,22 @@ html,body{
   -webkit-text-size-adjust: 100%;
 }
 
-p{
-  font-size: .7rem;
+.wrapper{
+  margin: 0 20px;
 }
+
+p{
+  font-size: 1.1rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+
+
+a{
+  color: white;
+}
+

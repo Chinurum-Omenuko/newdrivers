@@ -3,7 +3,15 @@ nav{
     position: fixed;
     top: 0;
     z-index: 10000;
+    padding: 20px 10px;
+    min-width: 100%;
 }
+
+.mnav{
+    display: none;
+}
+
+
 
 
 
@@ -11,7 +19,12 @@ nav{
 
 @media only screen and (max-width: 400px){
     nav{
-        min-width: 100%;
+        min-width: 100vw;
+    }
+
+    .mnav{
+        display: flex;
+        min-width: 100vw;
     }
 
     nav .main-nav{

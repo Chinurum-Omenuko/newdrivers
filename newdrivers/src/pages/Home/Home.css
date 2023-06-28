@@ -5,15 +5,31 @@
 }
 
 #title{
-    background-color: bisque;
-    border: solid 2px red;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0), rgb(0, 0, 0)),url('../../assets/images/landing-mb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
-    place-content: space-around center;
+    justify-content: end;
+    
+}
+
+.hd{
+    text-align: left;
+    padding-bottom: 50px;
 }
 
 .lower{
     color: red;
 }
 
+h3{
+    color: white;
+    font-size: 3rem;
+}
+
+a{
+    font-weight: bold;
+}
