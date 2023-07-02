@@ -2,13 +2,12 @@ import './Mobilenav.css'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import logo from '../../../assets/logo/logo.svg'
 
-import { useState } from 'react';
 
 
 
 
 function Mobilenav() {
-    const [isClicked, showDrawer] = useState(false)
+    
     
     return ( 
     <div className="mnav">
