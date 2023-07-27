@@ -1,5 +1,5 @@
 import './App.css'
-import Navigation from '../components/Navigation/Navigation.jsx'
+import Navbar from '../components/Navigation/Navbar.jsx'
 import Home from '../pages/Home/Home';
 import { useState } from 'react';
 
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="app-div">
-      <Navigation />
+      <Navbar />
       <Home />
 
     </div>
