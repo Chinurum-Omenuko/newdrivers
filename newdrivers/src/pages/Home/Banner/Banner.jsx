@@ -6,8 +6,8 @@ function Banner() {
     <div class="banner">
         <div class="wrapper banner-wrapper">
             <div className='items'>
-                <h3>View Our Courses</h3>
-                <BtnMain text="Courses" />
+                <h3>View Our Courses and Pricing</h3>
+                <BtnMain text="Pricing" />
             </div>
         </div>
     </div>

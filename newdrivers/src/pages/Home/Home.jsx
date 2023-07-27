@@ -12,7 +12,7 @@ function Home() {
                 <h3>Beginner Driver <br />Education Course<br /> Provider</h3>
                 <strong><h2 className='lower'>Ministry Approved</h2></strong>
 
-                <BtnMain text='See Plans' />
+                <BtnMain text='Sign Up' />
             </div>
         </section>
         <Welcome />

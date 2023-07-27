@@ -1,5 +1,6 @@
 import {RxHamburgerMenu} from 'react-icons/rx'
 import Navitems from '../Navitems/Navitems';
+import './BSN.css'
 
 function BSN() {
     const burger = <RxHamburgerMenu />
